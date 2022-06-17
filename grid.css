@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #192a56;
+}
+
+
+.main-head{
+    background: #dcdde1;
+    min-height: 10vh;
+}
+nav{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: rgb(168, 167, 167);
+}
+nav ul li:hover{
+    display: flex;
+    background: #60778e;
+    cursor: pointer;
+    min-height: 10vh;
+    align-items: center;
+
+}
+nav ul li:active{
+    display: flex;
+    background: #0b3f72;
+    cursor: pointer;
+    min-height: 10vh;
+    align-items: center;
+
+}
+nav ul li:visited{
+    display: flex;
+    background: #0b3f72;
+    cursor: pointer;
+    min-height: 10vh;
+    align-items: center;
+
+}
+nav ul{
+    display: flex;
+    flex: 1 1 20rem;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 1rem;
+}
+
+nav ul li{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 1.3rem;
+    min-height: 10vh;
+}
+
+
+
+.box{
+    padding: 2rem;
+    margin: 0.4rem;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    min-height: 85vh;
+}
+
+.con{
+    
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+}
+
+.box1{
+    background: #ff6348;
+    color: #ff6348;
+    grid-area: box1;
+}
+
+.box2{
+    background: #f39c12;
+    color: #f39c12;
+    grid-area: box2;
+}
+
+.box3{
+    background: #2ecc71;
+    color: #2ecc71;
+    grid-area: box3;
+}
+
+.box4{
+    background: #3498db;
+    color: #3498db;
+    grid-area: box4;
+}
+
+.box5{
+    background: #3498db;
+    color: #3498db;
+    grid-area: box5;
+}
+
+
+
+.boxes{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 7rem 7rem 7rem 7rem 7rem 3.5rem ;
+    grid-template-rows: 4rem 4rem 4rem 4rem 4rem 4rem 4rem;
+    grid-template-areas: "box1 box1 box1 box1 box2 box2"
+    "box1 box1 box1 box1 box2 box2"
+    "box1 box1 box1 box1 box2 box2"
+    "box3 box3 box4 box4 box4 box4"
+    "box3 box3 box4 box4 box4 box4"
+    "box3 box3 box5 box5 box5 box5"
+    "box3 box3 box5 box5 box5 box5";
+}
+
+
+.list{
+    display: flex;
+    min-height: 5vh;
+    align-items: center;
+    justify-content: center;
+    background: #2c3e50;
+    color: white;
+}
